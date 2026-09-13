@@ -1,0 +1,141 @@
+:root {
+  --cream: #f7e7aa;
+  --paper: #fffbf0;
+  --gold: #efb92c;
+  --orange: #e0791e;
+  --brown: #3b2a14;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: var(--brown);
+  background: var(--paper);
+  line-height: 1.6;
+}
+
+header {
+  background: var(--cream);
+  border-bottom: 3px solid var(--brown);
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--brown);
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.logo-badge {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: block;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--brown);
+  padding: 8px 14px;
+  margin-left: 4px;
+  border-radius: 6px;
+  border-bottom: 2px solid transparent;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+nav a:hover {
+  background: #fff;
+  border-color: var(--orange);
+}
+
+nav a.active {
+  border-color: var(--brown);
+  font-weight: 600;
+}
+
+.status {
+  text-align: center;
+  background: #f0d97e;
+  margin: 0;
+  padding: 6px;
+  font-size: 0.85rem;
+}
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 30px 20px 50px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e8dcb8;
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin: 20px 0;
+  box-shadow: 0 2px 6px rgba(59, 42, 20, 0.06);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.button {
+  display: inline-block;
+  background: var(--brown);
+  color: var(--paper);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 8px;
+  transition: opacity 0.15s ease;
+}
+
+.button:hover {
+  opacity: 0.85;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 14px 0;
+}
+
+th, td {
+  border: 1px solid #e8dcb8;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+th {
+  background: var(--cream);
+}
+
+.note {
+  font-size: 0.8rem;
+  color: #6b4a22;
+}
+
+footer {
+  background: var(--brown);
+  color: var(--cream);
+  text-align: center;
+  padding: 16px;
+  font-size: 0.82rem;
+}
