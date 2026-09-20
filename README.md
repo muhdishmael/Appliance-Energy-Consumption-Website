@@ -24,14 +24,13 @@ Appliance Energy Consumption Website/
 ├── logo.png
 ├── q1(a).png
 ├── q1(b).png
-└── images/
-    ├── q2.jpg
-    ├── q3.jpg
-    ├── q4.jpg
-    ├── q5.jpg
-    ├── q6.jpg
-    ├── q7.jpg
-    └── q8.jpg
+├── q2.jpg
+├── q3.jpg
+├── q4.jpg
+├── q5.jpg
+├── q6.jpg
+├── q7.jpg
+└── q8.jpg
 ```
 
 ## Running the site locally
@@ -55,7 +54,6 @@ Charts and figures on the Televisions page are based on the Australian Governmen
 5. What is the relationship between screen size and power use?
 6. What is the relationship between star rating and screen size?
 7. Are there differences in power consumption between brands?
-8. An additional, self-directed question explored with the dataset.
 
 ## Credits
 
